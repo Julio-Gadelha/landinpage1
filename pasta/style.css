@@ -13,3 +13,34 @@
     font-family: "poppins","serif";
     color: rgb(211, 204, 204);
 }
+#sobretexto h1{
+    color: rgb(211, 207, 207);
+    font-family:"poppins","serif" ;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
+#sobretexto h3{
+    color: rgb(212, 202, 202);
+    font-family: "poppins","serif";
+    text-align: center;
+    font-size: 14px;
+     margin-top: 5px;
+}
+#texto{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 14px;
+}
+#texto input{
+   height:4vh ;
+   width: 17vw;
+  outline: none;
+}
+#texto button{
+    height:5vh ;
+    width: 7vw;
+    outline: none;
+    
+}

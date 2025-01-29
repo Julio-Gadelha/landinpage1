@@ -16,7 +16,7 @@
 #sobretexto h1{
     color: rgb(211, 207, 207);
     font-family:"poppins","serif" ;
-    font-size: 24px;
+    font-size: 27px;
     text-align: center;
     margin-top: 8px;
 }
@@ -34,13 +34,22 @@
    margin-top: 14px;
 }
 #texto input{
-   height:4vh ;
-   width: 17vw;
-  outline: none;
+    height:4vh ;
+    width: 17vw;
+    outline: none;
+    margin-right: 12px;
+   background-color: white;
+  
+   
 }
 #texto button{
     height:5vh ;
-    width: 7vw;
-    outline: none;
-    
+    width: 6.6vw;
+    background-color: rgb(51, 47, 47);
+    cursor: pointer;
+    color: white;
+
 }
+#texto input::placeholder{
+    padding-left: 20px;
+    color: rgb(201, 203, 203);}
